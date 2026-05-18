@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Consultz - Expert Consultations</title>
+
+    <!-- Social Meta Tags (লিঙ্ক শেয়ার করলে যা দেখাবে) -->
+    <meta property="og:title" content="Join me on Consultz!">
+    <meta property="og:description" content="Unlock expert consultations & premium advice.">
+    <meta property="og:image" content="https://consultz.page.link/logo.png"> <!-- আপনার লোগো লিঙ্ক দিন -->
+
+    <script type="text/javascript">
+        window.onload = function() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            var urlParams = new URLSearchParams(window.location.search);
+            
+            // প্লে-স্টোর এবং অ্যাপ-স্টোর লিঙ্কগুলো এখানে দিন
+            var playStoreUrl = "https://play.google.com/store/apps/details?id=com.spark.consultz"; 
+            var appStoreUrl = "https://apps.apple.com/app/id123456789";
+
+            // ইউজার কোন ডিভাইসে আছে তা চেক করা এবং রিডাইরেক্ট করা
+            if (/android/i.test(userAgent)) {
+                window.location.href = playStoreUrl;
+            } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                window.location.href = appStoreUrl;
+            } else {
+                // ডেস্কটপ হলে একটি মেসেজ বা আপনার ওয়েবসাইট
+                document.body.innerHTML = "<h1>Please open this link on your mobile phone to download the Consultz App.</h1>";
+            }
+        };
+    </script>
+    <style type="text/css">
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; text-align: center; }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Redirecting to Store...</h2>
+        <p>If you are not redirected automatically, <a href="https://play.google.com/store/apps/details?id=com.spark.consultz">click here</a>.</p>
+    </div>
+</body>
+</html>

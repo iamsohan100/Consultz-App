@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "233756299057",
+    "project_id": "consultz-e39b8",
+    "storage_bucket": "consultz-e39b8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233756299057:android:f4c5bf9607f2b3719bea10",
+        "android_client_info": {
+          "package_name": "com.consultzuser.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233756299057-ps9vlauj0isn7lo3udmfh0rrcrsbhonb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.consultzuser.app",
+            "certificate_hash": "0498498986df302f28136a8de4353d7109eff14c"
+          }
+        },
+        {
+          "client_id": "233756299057-dmsrqc3pnroeqnmio00dl1t17s4tcbpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoH7OtrHQZPx948VHZi03VlQ3k9aIS3T0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233756299057-dmsrqc3pnroeqnmio00dl1t17s4tcbpb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "233756299057-17ojah1dtm5u5jk6pmvkg0bn5rlafj6i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.consultzuser.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
